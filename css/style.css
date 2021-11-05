@@ -59,7 +59,8 @@ a {
   color: #525252;
 }
 
-.offer-box > header {
+.offer-box > header,
+.office-info > header {
   text-align: center;
   padding: 10px 0;
   border-bottom: 1px solid #d0d0d3;
@@ -220,7 +221,7 @@ hr {
   bottom: -210px;
 }
 
-.rest-of-page > header {
+.piece-of-page > header {
   height: 230px;
 
   /* debug */
@@ -257,3 +258,36 @@ hr {
   margin-top: 60px;
   margin-bottom: 40px;
 }
+
+/* Office Section */
+
+.office-contact {
+  margin-top: 60px;
+  height: 230px;
+  border: 1px solid #d0d0d3;
+  color: #000000;
+  margin-bottom: 200px;
+}
+
+.margin-office {
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.office-content > span {
+  font-weight: 600;
+}
+
+.office-button {
+  right: 30px;
+  top: 80px;
+}
+
+.btn2 {
+  background-color: #0063ff;
+  color: white;
+  padding: 7px 70px;
+}
+
+/*  */
