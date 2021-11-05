@@ -327,3 +327,46 @@ hr {
   width: 600px;
   margin-right: 50px;
 }
+
+/* Paragrafi di testo (pagina 4) */
+
+.text-session {
+  margin-top: 90px;
+  width: 1150;
+}
+
+.text-session header {
+  margin-bottom: 60px;
+  color: #000000;
+  font-size: 20px;
+}
+
+.direct-div {
+  height: 550px;
+  /* border: 1px solid brown; */
+  width: 30%;
+  margin-bottom: 150px;
+}
+
+.mega-margin {
+  margin: 0 5%;
+}
+
+.direct-div > div > img {
+  width: 100%;
+}
+
+.text-session-text > h2 {
+  color: #000000;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.text-session-text > p {
+  color: #22272a;
+  width: 95%;
+}
+
+.text-session-text > p > span {
+  text-decoration: underline;
+}
