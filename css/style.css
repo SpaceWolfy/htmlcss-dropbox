@@ -328,6 +328,8 @@ hr {
   margin-right: 50px;
 }
 
+/*  */
+
 /* Paragrafi di testo (pagina 4) */
 
 .text-session {
@@ -369,4 +371,123 @@ hr {
 
 .text-session-text > p > span {
   text-decoration: underline;
+}
+
+/*  */
+
+/* Partner section */
+
+.partner-introduction {
+  margin-top: 80px;
+  width: 1150px;
+  margin-bottom: 40px;
+}
+
+.partner-introduction header h1 {
+  color: #000000;
+  font-size: 40px;
+  width: 50%;
+  margin-bottom: 35px;
+}
+
+.partner-introduction header a {
+  text-decoration: underline;
+}
+
+.partner {
+  height: 500px;
+  background-color: #f5f5f5;
+}
+
+.partner-section {
+  height: 100%;
+  /* border: 1px solid black; */
+  width: 502px;
+}
+
+.partner-section-middle {
+  height: 100%;
+  /* border: 1px solid black; */
+  width: calc(100% - 1004px);
+}
+
+.square {
+  height: 250px;
+  width: 50%;
+  /* border: 1px solid green; */
+  text-align: center;
+}
+
+.square img {
+  width: 130px;
+  /* border: 1px solid green; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Left Squares */
+
+.square.pr div {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90%;
+  background-color: #94d595;
+}
+
+.square:first-child {
+  background-color: #caeacb;
+}
+
+.square:nth-child(2) {
+  background-color: #6b002b;
+}
+
+.square:nth-child(3) {
+  background-color: #0096d3;
+}
+
+.square:last-child {
+  background-color: #ff0000;
+}
+
+/*  */
+
+/* Right Squares */
+.right-section .square:first-child {
+  background-color: #e90006;
+}
+
+.right-section .square:nth-child(2) {
+  background-color: #add1ea;
+}
+
+.right-section .square:nth-child(3) {
+  background-color: #022486;
+}
+
+.right-section .square:last-child {
+  background-color: #ffd600;
+}
+
+/*  */
+
+/* Middle section (squares) */
+
+.partner-section-middle > div > header {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 120px;
+}
+
+.partner-section-middle > div > header > img {
+  width: 150px;
+  padding-bottom: 40px;
+}
+
+.partner-section-middle div > p,
+.partner-section-middle div > span {
+  color: #2d2d2d;
+  margin: 45px 50px;
 }
