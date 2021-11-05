@@ -204,6 +204,7 @@ hr {
   font-size: 15px;
   font-weight: 600;
   padding-bottom: 50px;
+  cursor: pointer;
 }
 
 .fa-arrow-down {
