@@ -49,6 +49,7 @@ a {
   font-size: 16px;
   font-weight: 600;
 }
+
 /* -------------------------------------------- */
 
 .header-contained {
@@ -59,6 +60,10 @@ a {
   vertical-align: middle;
   margin-left: 40px;
   color: black;
+}
+
+.page-navbar ul > li {
+  display: inline;
 }
 
 .jumbotron {
