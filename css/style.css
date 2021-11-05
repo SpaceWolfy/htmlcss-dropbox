@@ -266,7 +266,7 @@ hr {
   height: 230px;
   border: 1px solid #d0d0d3;
   color: #000000;
-  margin-bottom: 200px;
+  margin-bottom: 20px;
 }
 
 .margin-office {
@@ -291,3 +291,39 @@ hr {
 }
 
 /*  */
+
+/* Slide con foto */
+.container {
+  height: 680px;
+  /* background-color: purple; */
+  width: 1150px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container header {
+  height: 130px;
+  /* background-color: royalblue; */
+}
+
+.container-text {
+  margin-top: 30px;
+  width: 43%;
+  /* background-color: saddlebrown; */
+  text-align: left;
+  color: #22272a;
+}
+
+.container-text > h1 {
+  margin-bottom: 35px;
+  font-size: 30px;
+}
+
+.container-text > p {
+  width: 82%;
+}
+
+.container img {
+  width: 600px;
+  margin-right: 50px;
+}
