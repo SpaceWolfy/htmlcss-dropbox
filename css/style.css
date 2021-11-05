@@ -34,13 +34,21 @@ body {
 #button {
   background-color: #0063ff;
   color: white;
-  padding: 5px 20px;
+  padding: 7px 20px;
 }
 
 a {
   text-decoration: none;
 }
 
+.margin-center {
+  margin: 0 auto;
+}
+
+.font-adapt {
+  font-size: 16px;
+  font-weight: 600;
+}
 /* -------------------------------------------- */
 
 .header-contained {
@@ -51,6 +59,51 @@ a {
   vertical-align: middle;
   margin-left: 40px;
   color: black;
-  font-size: 16px;
+}
+
+.jumbotron {
+  height: 760px;
+  background-color: #add1ea;
+}
+
+.mega-container {
+  padding-top: 80px;
+  width: 1800px;
+}
+
+.text {
+  width: 85%;
+  margin: 0 auto;
+  color: black;
+}
+
+.title-container > h1 {
+  font-size: 85px;
+  font-weight: bolder;
+}
+
+.paragraph-container {
+  margin-top: 50px;
+  width: 27%;
+  margin-bottom: 35px;
+}
+
+.jumbotron-cancel-subscription {
+  margin-top: 20px;
+  font-size: 15px;
   font-weight: 600;
+  padding-bottom: 50px;
+}
+
+.fa-arrow-down {
+  font-size: 40px;
+}
+
+.jumbo-img > img {
+  width: 900px;
+}
+
+.jumbo-img {
+  right: 250px;
+  bottom: -210px;
 }
