@@ -50,6 +50,96 @@ a {
   font-weight: 600;
 }
 
+/* General properties for subscription boxes */
+
+.offer-box > header {
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #d0d0d3;
+  font-weight: 600;
+  color: #2d2d2d;
+}
+
+.offertype {
+  color: black;
+  margin-bottom: 40px;
+}
+
+.offertype span:last-child {
+  color: #748792;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.margin-box {
+  margin: 30px 30px;
+}
+
+.price {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.offerspec {
+  color: #2d2d2d;
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.offerspec div:nth-child(2) {
+  padding: 20px 0;
+}
+
+.free-trial-button {
+  margin-top: 60px;
+}
+
+.or-buy {
+  margin: 20px 0;
+}
+
+hr {
+  width: 55px;
+  border: 1px solid ##d0d0d3;
+  margin-bottom: 40px;
+}
+
+.or-buy > a {
+  text-decoration: underline;
+}
+
+.btn {
+  background-color: #0063ff;
+  color: white;
+  padding: 7px 50px;
+}
+
+.fa-pencil-alt {
+  font-size: 15px;
+}
+
+.align-right {
+  width: 93%;
+}
+
+.spicy-points ul {
+  list-style: none;
+}
+
+.spicy-points ul li {
+  padding: 25px 0;
+  width: 93%;
+}
+
+.spicy-points ul li::before {
+  margin-right: 5px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f00c";
+  color: #0063ff;
+}
 /* -------------------------------------------- */
 
 .header-contained {
@@ -78,7 +168,6 @@ a {
 
 .text {
   width: 85%;
-  margin: 0 auto;
   color: black;
 }
 
@@ -111,4 +200,49 @@ a {
 .jumbo-img {
   right: 250px;
   bottom: -210px;
+}
+
+.rest-of-page > header {
+  height: 230px;
+
+  /* debug */
+  /*   border: 1px solid black; */
+}
+
+.service-section {
+  width: 1150px;
+}
+
+.service-section > header {
+  color: black;
+  font-size: 22px;
+
+  /* debug */
+  /* height: 1000px;
+  border: 1px solid green; */
+}
+
+.row {
+  width: 1150px;
+}
+
+.offer-box {
+  height: 1000px;
+  border: 1px solid #d0d0d3;
+  width: 30%;
+  color: #525252;
+}
+
+.middle {
+  margin: 0 5%;
+}
+
+.checkbar > div {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.checkbar {
+  margin-top: 60px;
+  margin-bottom: 40px;
 }
