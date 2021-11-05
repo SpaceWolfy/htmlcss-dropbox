@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+.fl {
+  float: right;
+}
+
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.button {
+  background-color: #0063ff;
+  color: white;
+  padding: 5px 10px;
+}
+
+/* -------------------------------------------- */
