@@ -50,6 +50,15 @@ a {
   font-weight: 600;
 }
 
+/* Question Padding */
+.qpadding {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #dcdcde;
+  font-weight: 900;
+}
+/*  */
+
 /* General properties for subscription boxes */
 
 .offer-box {
@@ -528,5 +537,36 @@ hr {
   background-color: white;
   padding: 10px 70px;
   color: black;
+}
+/*  */
+
+/* Questions */
+
+.question {
+  height: 850px;
+}
+
+.question > div {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 550px;
+  width: 1150px;
+  /* border: 1px solid black; */
+}
+
+.question > div > header {
+  color: #000000;
+  font-size: 18px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #dcdcde;
+}
+
+.question-section {
+  color: black;
+}
+
+.question-section i {
+  right: 0;
 }
 /*  */
