@@ -330,11 +330,18 @@ hr {
 
 .container-text > p {
   width: 82%;
+  margin-bottom: 30px;
 }
 
 .container img {
   width: 600px;
   margin-right: 50px;
+}
+
+.btn-small {
+  padding: 5px 20px;
+  border: 1px solid black;
+  color: #171717;
 }
 
 /*  */
@@ -420,6 +427,8 @@ hr {
   width: calc(100% - 1004px);
 }
 
+/* Squares Section */
+
 .square {
   height: 250px;
   width: 50%;
@@ -503,6 +512,8 @@ hr {
 
 /*  */
 
+/*  */
+
 /* Sezione prova gratuita */
 
 .free-period {
@@ -543,7 +554,7 @@ hr {
 /* Questions */
 
 .question {
-  height: 850px;
+  height: 780px;
 }
 
 .question > div {
@@ -566,7 +577,71 @@ hr {
   color: black;
 }
 
+.question-section div {
+  cursor: pointer;
+  right: 0;
+}
+
 .question-section i {
   right: 0;
+}
+
+/*  */
+
+/* Footer */
+
+.footer-background {
+  height: 540px;
+  background-color: #000000;
+}
+
+.footer-background > div {
+  width: 1420px;
+}
+
+.footer-section {
+  height: 300px;
+  width: 12%;
+  /*  border: 1px solid white; */
+  margin-top: 120px;
+}
+
+.fmarginleft {
+  margin-left: 10%;
+}
+
+.fmarginright {
+  margin-right: 10%;
+}
+
+.footer-text > h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-text a {
+  color: white;
+  font-size: 14px;
+}
+
+.footer-text > ul {
+  list-style: none;
+  line-height: 30px;
+}
+
+.end-of-footer > hr {
+  width: 120px;
+  border: 1px solid ##bfbfbf;
+  margin-bottom: 50px;
+}
+
+.end-of-footer > span {
+  color: #5d5d5d;
+  font-size: 13px;
+}
+
+.fa-globe-americas {
+  color: #999999;
+  font-size: 16px;
 }
 /*  */
