@@ -169,6 +169,7 @@ hr {
 }
 /* -------------------------------------------- */
 
+/* Header & Offers Header */
 .header-contained {
   margin: 30px 20px;
 }
@@ -254,6 +255,7 @@ hr {
   width: 1150px;
 }
 
+/* Migliorabile - Evitare margin in % */
 .middle {
   margin: 0 5%;
 }
@@ -267,6 +269,8 @@ hr {
   margin-top: 60px;
   margin-bottom: 40px;
 }
+
+/*  */
 
 /* Office Section */
 
