@@ -50,16 +50,7 @@ a {
   font-weight: 600;
 }
 
-/* Question Padding */
-.qpadding {
-  margin-top: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #dcdcde;
-  font-weight: 900;
-}
-/*  */
-
-/* General properties for subscription boxes */
+/* Proprietà generali per sottosezione abbonamenti (Box) */
 
 .offer-box {
   height: 1200px;
@@ -75,6 +66,15 @@ a {
   border-bottom: 1px solid #d0d0d3;
   font-weight: 600;
   color: #2d2d2d;
+}
+
+/* Migliorabile - Evitare margin in % */
+/* .middle {
+  margin: 0 5%;
+} */
+
+.middle {
+  margin: 0 calc(100% - 90% - 58px);
 }
 
 .offertype {
@@ -135,12 +135,10 @@ hr {
 
 .fa-pencil-alt {
   font-size: 15px;
-  position: absolute;
 }
 
 .fa-smile {
   font-size: 15px;
-  position: absolute;
 }
 
 .align {
@@ -154,7 +152,6 @@ hr {
 .spicy-points ul li {
   padding: 25px 0;
   width: 93%;
-  position: relative;
   padding-left: 20px;
 }
 
@@ -167,9 +164,21 @@ hr {
   position: absolute;
   left: 0px;
 }
+
+/*  */
+
+/* Question Padding */
+.qpadding {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #dcdcde;
+  font-weight: 900;
+}
+/*  */
+
 /* -------------------------------------------- */
 
-/* Header & Offers Header */
+/* Page Header */
 .header-contained {
   margin: 30px 20px;
 }
@@ -183,7 +192,9 @@ hr {
 .page-navbar ul > li {
   display: inline;
 }
+/*  */
 
+/* Jumbotron */
 .jumbotron {
   height: 760px;
   background-color: #add1ea;
@@ -230,7 +241,9 @@ hr {
   right: 250px;
   bottom: -210px;
 }
+/*  */
 
+/* Prima sottosezione - Abbonamenti (Header)  */
 .piece-of-page > header {
   height: 230px;
 
@@ -255,11 +268,6 @@ hr {
   width: 1150px;
 }
 
-/* Migliorabile - Evitare margin in % */
-.middle {
-  margin: 0 5%;
-}
-
 .checkbar > div {
   display: inline-block;
   padding-right: 15px;
@@ -269,11 +277,9 @@ hr {
   margin-top: 60px;
   margin-bottom: 40px;
 }
-
 /*  */
 
-/* Office Section */
-
+/* Prima sottosezione - "Footer" - Ufficio Vendite */
 .office-contact {
   margin-top: 60px;
   height: 230px;
@@ -302,7 +308,6 @@ hr {
   color: white;
   padding: 7px 70px;
 }
-
 /*  */
 
 /* Slide con foto */
@@ -310,7 +315,6 @@ hr {
   height: 680px;
   /* background-color: purple; */
   width: 1150px;
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -347,11 +351,9 @@ hr {
   border: 1px solid black;
   color: #171717;
 }
-
 /*  */
 
 /* Paragrafi di testo (pagina 4) */
-
 .text-session {
   margin-top: 90px;
   width: 1150;
@@ -392,11 +394,9 @@ hr {
 .text-session-text > p > span {
   text-decoration: underline;
 }
-
 /*  */
 
-/* Partner section */
-
+/* Sottosezione partner */
 .partner-introduction {
   margin-top: 80px;
   width: 1150px;
@@ -430,9 +430,9 @@ hr {
   /* border: 1px solid black; */
   width: calc(100% - 1004px);
 }
+/*  */
 
 /* Squares Section */
-
 .square {
   height: 250px;
   width: 50%;
@@ -447,8 +447,8 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-/* Left Squares */
 
+/* Left Squares */
 .square.pr div {
   top: 50%;
   left: 50%;
@@ -473,7 +473,6 @@ hr {
 .square:last-child {
   background-color: #ff0000;
 }
-
 /*  */
 
 /* Right Squares */
@@ -492,11 +491,9 @@ hr {
 .right-section .square:last-child {
   background-color: #ffd600;
 }
-
 /*  */
 
 /* Middle section (squares) */
-
 .partner-section-middle > div > header {
   margin-top: 50px;
   margin-left: 50px;
@@ -513,13 +510,11 @@ hr {
   color: #2d2d2d;
   margin: 45px 50px;
 }
-
 /*  */
 
 /*  */
 
 /* Sezione prova gratuita */
-
 .free-period {
   background-color: #add1ea;
 }
@@ -527,7 +522,6 @@ hr {
 .free-period-text {
   width: 1150px;
   height: 350px;
-  margin: 0 auto;
 }
 
 .free-period-text > div {
@@ -555,8 +549,7 @@ hr {
 }
 /*  */
 
-/* Questions */
-
+/* Domande frequenti */
 .question {
   height: 780px;
 }
@@ -589,11 +582,9 @@ hr {
 .question-section i {
   right: 0;
 }
-
 /*  */
 
 /* Footer */
-
 .footer-background {
   height: 540px;
   background-color: #000000;
@@ -649,3 +640,5 @@ hr {
   font-size: 16px;
 }
 /*  */
+
+/* IMPORTANTE: SE DEVO CAMBIARE IL COLORE DI UN SVG DAL NERO AL BIANCO O VICEVERSA, DEVBO USARE FLITER INVERT 100% INVECE DI CAMBIARE TUTTI I FILL */
