@@ -246,9 +246,6 @@ hr {
 /* Prima sottosezione - Abbonamenti (Header)  */
 .piece-of-page > header {
   height: 230px;
-
-  /* debug */
-  /*   border: 1px solid black; */
 }
 
 .service-section {
@@ -258,10 +255,6 @@ hr {
 .service-section > header {
   color: black;
   font-size: 22px;
-
-  /* debug */
-  /* height: 1000px;
-  border: 1px solid green; */
 }
 
 .row {
@@ -313,20 +306,17 @@ hr {
 /* Slide con foto */
 .container {
   height: 680px;
-  /* background-color: purple; */
   width: 1150px;
   text-align: center;
 }
 
 .container header {
   height: 130px;
-  /* background-color: royalblue; */
 }
 
 .container-text {
   margin-top: 30px;
   width: 43%;
-  /* background-color: saddlebrown; */
   text-align: left;
   color: #22272a;
 }
@@ -367,7 +357,6 @@ hr {
 
 .direct-div {
   height: 550px;
-  /* border: 1px solid brown; */
   width: 30%;
   margin-bottom: 80px;
 }
@@ -421,13 +410,11 @@ hr {
 
 .partner-section {
   height: 100%;
-  /* border: 1px solid black; */
   width: 502px;
 }
 
 .partner-section-middle {
   height: 100%;
-  /* border: 1px solid black; */
   width: calc(100% - 1004px);
 }
 /*  */
@@ -436,13 +423,11 @@ hr {
 .square {
   height: 250px;
   width: 50%;
-  /* border: 1px solid green; */
   text-align: center;
 }
 
 .square img {
   width: 130px;
-  /* border: 1px solid green; */
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -560,7 +545,6 @@ hr {
   transform: translate(-50%, -50%);
   height: 550px;
   width: 1150px;
-  /* border: 1px solid black; */
 }
 
 .question > div > header {
@@ -597,7 +581,6 @@ hr {
 .footer-section {
   height: 300px;
   width: 12%;
-  /*  border: 1px solid white; */
   margin-top: 120px;
 }
 
