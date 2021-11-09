@@ -203,6 +203,7 @@ hr {
 .mega-container {
   padding-top: 80px;
   width: 1800px;
+  /* Nota: questa width potrebbe essere messa anche in percentuale (100%) */
 }
 
 .text {
