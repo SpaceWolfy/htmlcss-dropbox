@@ -50,6 +50,10 @@ a {
   font-weight: 600;
 }
 
+.svg-image {
+  filter: invert(100%);
+}
+
 /* Proprietà generali per sottosezione abbonamenti (Box) */
 
 .offer-box {
